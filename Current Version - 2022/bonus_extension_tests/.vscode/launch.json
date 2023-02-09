@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "sybcursus",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox",
+            "server": "http://sybcursustest/BC/?tenant=default",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "startupObjectId": 130451,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync",
+            "tenant": "default"
+        }
+    ]
+}
